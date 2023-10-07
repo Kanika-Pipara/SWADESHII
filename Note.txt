@@ -1,0 +1,11 @@
+If you have to use this :-
+
+1. Create a Web Application With Glassfish server
+
+2. Copy Web Pages document in NetBeans Web Pages
+
+3. Copy Souce Packages as well
+
+4. Import servlet and mysql connector jar files
+
+5. Run the Project

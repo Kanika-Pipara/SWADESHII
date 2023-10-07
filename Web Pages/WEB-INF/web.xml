@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>LoginSwadeshi</servlet-name>
+        <servlet-class>servlet.LoginSwadeshi</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterSwadeshi</servlet-name>
+        <servlet-class>servlet.RegisterSwadeshi</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VendorRequest</servlet-name>
+        <servlet-class>servlet.VendorRequest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchVendor</servlet-name>
+        <servlet-class>servlet.SearchVendor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginSwadeshi</servlet-name>
+        <url-pattern>/LoginSwadeshi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterSwadeshi</servlet-name>
+        <url-pattern>/RegisterSwadeshi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VendorRequest</servlet-name>
+        <url-pattern>/VendorRequest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchVendor</servlet-name>
+        <url-pattern>/SearchVendor</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
